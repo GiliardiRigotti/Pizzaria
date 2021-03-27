@@ -1,0 +1,156 @@
+﻿@font-face {
+     font-family: "centurygothic";
+     src: url("century-gothic.ttf");
+}
+@font-face {
+    font-family: "courgette";
+    src: url("Courgette-Regular.ttf");
+}
+.cour{
+    font-family: 'courgette';
+}
+body, h1, h2, h3{
+    font-family: 'centurygothic';
+}
+.margin-top{
+    margin-top: 4%;
+}
+p{
+    font-size: large;
+    margin: 3%;
+}
+.mySlides{
+    display:none;
+}
+.menu{
+    display: none
+}
+#logo{
+    width: 35%;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+}
+.font-x-large{
+    font-size: x-large;
+}
+.fundo{
+    background-image: url("img/pizza.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon-color {
+    color: #CA1410;
+}
+.fundo-color{
+    background-color: #F3A100;
+}
+.fundo-color2{
+    background-color: #EC7C00;
+}
+.fundo-color3{
+    background-color:#CA1410;
+}
+.font-white{
+    color: white;
+}
+.bt-margin{
+    margin-top: 1.5%;
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/fundo7.jpg");
+}
+.bg-img2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/slide.jpg");
+}
+.opacidade{
+    opacity: 100;
+}
+.back{
+    position: absolute;
+}
+/* googlemaps */
+@media screen and (max-width: 600px){
+    div.descritop{
+        display: none;
+    }
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* whats fixo */
+.whatsapp-fixo {
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    z-index: 999;
+}
+/* mensagem no botão do whatsapp */
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    background-color: rgb(209, 14, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    right: 1%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(255, 53, 3, 0);
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+  .round{
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+  }
+  .round-top{
+      border-top-right-radius: 25%;
+      border-bottom-left-radius: 25%;
+  }
+  .stars{
+      width: 40%;
+  }
+  .aspas{
+      font-size: 100px;
+      margin-bottom: -10%;
+  }
+  .bt-margin-top{
+      margin-top: -5%;
+  }
