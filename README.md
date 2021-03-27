@@ -1,15 +1,9 @@
 # Pizzaria
- Cardapio online para pizzaria.
+ Cardapio online simples
 
- # 🎓 Conceitos abordados até o momento:
-- Design Patterns
-- Programação Orientada a Objetos
-- Princípios SOLID
-- Conceitos REST
-- 
 # 🚀 Tecnologias utilizadas
-- [HTML](https://reactjs.org/)
-- [CSS](https://nodejs.org/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.javascript.com/)
 - [PHP](https://www.php.net/manual/pt_BR/intro-whatis.php)
 - [MySQL](https://www.mysql.com/)
