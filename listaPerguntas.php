@@ -49,9 +49,7 @@
 
         <!-- <a class="w3-btn w3-green w3-round-large" href="adicionarCategoria.php">Adicionar Categoria</a> -->
 
-        <a class="w3-btn w3-green w3-round-large" href="adicionarProduto.php">Adicionar Produto</a>
-        <a class="w3-btn w3-green w3-round-large" href="alterarPreco.php">Altera Preço das Pizzas</a>
-        <a class="w3-btn w3-green w3-round-large" href="listaPerguntas.php">Lista de Perguntas</a>
+        <a class="w3-btn w3-green w3-round-large" href="adicionarPergunta.php">Adicionar Pergunta</a>
 
 
         <a class="w3-btn w3-red w3-round-large w3-right" href="sair.php">Sair</a>
@@ -60,7 +58,7 @@
 
 <?php
 
-    $resultado = mysqli_query($con, "SELECT * FROM produtos");
+    $resultado = mysqli_query($con, "SELECT * FROM perguntas");
 
     while ($linha = $resultado->fetch_assoc()) {
 
@@ -78,15 +76,9 @@
 
             <div class="w3-quarter w3-container">
 
-                <h3>Nome: <?php echo $linha["nome"]?></h3> 
+                <h3>Pergunta: <?php echo $linha["pergunta"]?></h3> 
 
-                <p>Valor: R$<?php echo $linha["valor"]?></p>
-
-                <p>Descrição: <?php echo $linha["descricao"]?></p>
-
-                <h3>Categoria: <?php  $resultado2 = mysqli_query($con, "SELECT * FROM categoria WHERE id=".$linha["categoria"]);
-
-                while ($linha2 = $resultado2->fetch_assoc()) {echo $linha2["nome"];}?></h3>
+                <p>Resposta: <?php echo $linha["resposta"]?></p>
 
                 <br>
 
@@ -94,7 +86,7 @@
 
             <div class="w3-quarter w3-container margin-top">
 
-                <a class="w3-btn w3-red w3-round-large" href="removerProduto.php/?id=<?php echo $linha["id"]?>">Excluir</a>
+                <a class="w3-btn w3-red w3-round-large" href="removerPergunta.php/?id=<?php echo $linha["id"]?>">Excluir</a>
 
             </div>
 

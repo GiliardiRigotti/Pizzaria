@@ -176,19 +176,13 @@
 
                 <div class="w3-content">
 
-                    <h1 class="w3-center cour w3-xxlarge" style="margin-bottom:64px">• Sabores das Pizzas • </h1>
+                    <h1 class="w3-center cour w3-xxlarge" style="margin-bottom:64px">• Duvidas Frequentes • </h1>
 
                     <div class="w3-row">
 
-                        <div class="w3-container w3-half">
+                        <div class="w3-container">
 
                             <ul class="w3-ul">
-
-                                <li>
-
-                                    <p class="w3-center w3-large"><b> PIZZAS TRADICIONAIS </b></p><br>
-
-                                </li>
 
                                 <?php
 
@@ -201,108 +195,6 @@
                                     <li>
 
                                         <p class="w3-large cour"><?php echo $linha["nome"];?></p>
-
-                                        <p class="w3-medium"><?php echo $linha["descricao"];?></p>
-
-                                    </li>
-
-                                <?php
-
-                                    }
-
-                                ?>
-
-                            </ul>
-
-                        </div>
-
-                        <div class=" w3-container w3-half">                      
-
-                            <ul class="w3-ul">
-
-                                <li>
-
-                                    <p class="w3-center w3-large"><b> PIZZAS ESPECIAIS </b></p>
-
-                                    <p class="w3-center w3-medium"><b> Acréscimo de R$ 4,00 a cada 1/4 </b></p>
-
-                                </li>
-
-                                <?php
-                                    $resultado = mysqli_query($con, "SELECT * FROM produtos WHERE categoria=2");
-
-                                    while ($linha = $resultado->fetch_assoc()) {
-
-                                ?>
-
-                                    <li>
-
-                                        <p class="w3-large cour"><?php echo $linha["nome"];?></p>
-
-                                        <p class="w3-medium"><?php echo $linha["descricao"];?></p>
-
-                                    </li>
-
-                                <?php
-
-                                    }
-
-                                ?>
-
-                            </ul>
-
-                            <ul class="w3-ul">
-
-                                <li>
-
-                                    <p class="w3-center w3-large"><b> PIZZAS DOCES </b></p>
-
-                                    <p class="w3-center w3-medium"><b> Acréscimo de R$ 4,00 a cada 1/4 </b></p>
-
-                                </li>
-
-                                <?php
-                                    $resultado = mysqli_query($con, "SELECT * FROM produtos WHERE categoria=3");
-
-                                    while ($linha = $resultado->fetch_assoc()) {
-
-                                ?>
-
-                                    <li>
-
-                                        <p class="w3-large cour"><?php echo $linha["nome"];?></p>
-
-                                        <p class="w3-medium"><?php echo $linha["descricao"];?></p>
-
-                                    </li>
-
-                                <?php
-
-                                    }
-
-                                ?>
-
-                            </ul><br>
-
-                            <ul class="w3-ul">
-
-                                <li>
-
-                                    <p class="w3-center w3-large"><b> BEBIDAS </b></p>
-
-                                </li>
-
-                                <?php
-                                    $resultado = mysqli_query($con, "SELECT * FROM produtos WHERE categoria=4");
-
-                                    while ($linha = $resultado->fetch_assoc()) {
-                                ?>
-
-                                    <li>
-
-                                        <p class="w3-large cour"><?php echo $linha["nome"];?></p>
-
-                                        <p class="w3-small"><b> A partir de R$ <?php echo $linha["valor"];?>,00</b></p>
 
                                         <p class="w3-medium"><?php echo $linha["descricao"];?></p>
 

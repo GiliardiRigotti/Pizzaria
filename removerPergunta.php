@@ -29,9 +29,9 @@
 
     $id = $_GET['id'];
 
-    if(mysqli_query($con,"DELETE FROM produtos WHERE id= ".$id)){
+    if(mysqli_query($con,"DELETE FROM perguntas WHERE id= ".$id)){
 
-        echo"<script language='javascript' type='text/javascript'>alert('Excluido com sucesso');window.location.href='admin.php;</script>";
+        echo"<script language='javascript' type='text/javascript'>alert('Excluido com sucesso');window.location.href='listarPerguntas.php;</script>";
 
     }
 
