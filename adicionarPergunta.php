@@ -8,6 +8,13 @@
 
     $senha = $_SESSION['senha'];
 
+    if($usuario == null || $senha == null){
+        echo"<script language='javascript' type='text/javascript'>
+
+            alert('Você não esta logado');window.location
+
+            .href='login.php';</script>";
+    }
 
 
     if(!mysqli_query($con,"SELECT * FROM usuarios  WHERE usuario = '{$usuario}' AND senha = '{$senha}'")){
