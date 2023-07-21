@@ -382,6 +382,8 @@
 
                     <p class="font-white"><i class="fas fa-map-marker-alt icon-color"></i> R. João Maria Waltrick, 101 - Itinga - Araquari/SC </p><br> 
 
+                    <p class="font-white"><i class="fas fa-map-marker-alt icon-color"></i> R. São Paulo, 2083 - Floresta - Joinville/SC </p><br> 
+
                     <br>
 
                 </div>
