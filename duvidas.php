@@ -268,9 +268,9 @@
 
                     <h1 class="w3-center cour font-white" style="margin-bottom:64px"> • Rodízio de Pizzas e Massas • </h1>
 
-                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 64,90 Terça à Quinta </b></p>
-                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 69,90 Sexta à Domingo </b></p>
-                    <p class="w3-center w3-large font-white bt-margin-top"><b> Crianças de 5 à 8 pagam meio rodízio </b></p>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 64,90 Terça à Quinta </b></p></div><br>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 69,90 Sexta à Domingo </b></p><br>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> Crianças de 5 à 8 pagam meio rodízio </b></p><br>
 
                     <div class="w3-row">
 
