@@ -268,7 +268,9 @@
 
                     <h1 class="w3-center cour font-white" style="margin-bottom:64px"> • Rodízio de Pizzas e Massas • </h1>
 
-                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 36,00 e crianças de 6 a 8 pagam meio rodízio </b></p>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 64,90 Terça à Quinta </b></p>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> R$ 69,90 Sexta à Domingo </b></p>
+                    <p class="w3-center w3-large font-white bt-margin-top"><b> Crianças de 5 à 8 pagam meio rodízio </b></p>
 
                     <div class="w3-row">
 
@@ -378,7 +380,7 @@
 
                     <p class="font-white"><i class="far fa-envelope icon-color"></i></i> E-mail: contato@pizzariaaraldi.com.br <br></p>                    
 
-                    <p class="font-white"><i class="fas fa-map-marker-alt icon-color"></i> R. São Paulo, 2107 - Itaum - Joinville/SC </p><br> 
+                    <p class="font-white"><i class="fas fa-map-marker-alt icon-color"></i> R. João Maria Waltrick, 101 - Itinga - Araquari/SC </p><br> 
 
                     <br>
 
