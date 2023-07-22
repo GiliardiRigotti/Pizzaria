@@ -158,7 +158,7 @@
 
                             <p class="w3-large font-white">16 fatias</p>
 
-                            <p class="cour w3-xxlarge font-white">R$ <?php echo $preco[3];?>,00</p>
+                            <p class="cour w3-xxlarge font-white">R$ <?php echo $preco[3];?>,90</p>
 
                         </div>
 
